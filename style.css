@@ -91,7 +91,7 @@ input[type=text]:focus,
 input[type=email]:focus,
 input[type=password]:focus,
 .container-right-but:focus{
-    border-color:black;
+    border-color:rgba(0, 0, 0, 0.5);
 }
 .container-right-but{
     cursor: pointer;
@@ -129,8 +129,11 @@ a{
   @media screen and (max-width:700px){
       .container-left{
           width:90%;
-          padding:;
+          text-align:center;
       }
+      h1{
+        font-size:2.5em;   
+    }
       .container-right{
           width:100%;
       }
